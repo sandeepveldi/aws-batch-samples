@@ -17,7 +17,7 @@ array_job_index = os.getenv('AWS_BATCH_JOB_ARRAY_INDEX')
 
 # Read input parameters specific to this simulation
 df = wr.s3.read_csv(path=input_param_file_url)
-sim_spec_params = str(df['Parameters'].iloc[array_job_index])
+sim_spec_params = str(df['Parameters'].iloc[int(array_job_index)])
 
 # Read all input CSV files in chunks of 1 line
 dfs = wr.s3.read_csv(path=input_csv_path, chunksize=1)
