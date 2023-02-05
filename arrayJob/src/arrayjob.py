@@ -12,7 +12,7 @@ job_attempt = os.getenv('AWS_BATCH_JOB_ATTEMPT')
 job_id = os.getenv('AWS_BATCH_JOB_ID')
 input_csv_path = os.getenv('S3_INPUT_CSV_PATH')
 output_csv_path = os.getenv('S3_OUTPUT_CSV_PATH')
-input_param_file_url = os.getenv('S3_INPUT_PARAM_URL')
+input_param_file_url = os.getenv('S3_INPUT_PARAM_FILE_URL')
 array_job_index = os.getenv('AWS_BATCH_JOB_ARRAY_INDEX')
 
 # Read input parameters specific to this simulation
