@@ -26,7 +26,6 @@ docker info
 
 echo "Grant executable permissions to scripts"
 
-chmod +x ./singleJob/singleJobDockerBuildAndPush.sh ./arrayJob/arrayJobDockerBuildAndPush.sh
-
+chmod +x ./singleJob/singleJobDockerBuildAndPush.sh ./arrayJob/arrayJobDockerBuildAndPush.sh ./s3SampleDataPush.sh 
 
 rm -f ./awscliv2.zip
