@@ -29,7 +29,7 @@
 
 1) Using the search box at the top of the page, search for `S3` and click on it.
 2) In the S3 Home page, click on `“Create bucket”`
-3) Provide a unique name for the bucket. For example: `aws-batch-`<mark >YOURNAME</mark> (replace <mark >YOURNAME</mark> with your name example: *`aws-batch-sveldi`*)
+3) Provide a unique name for the bucket. For example: `aws-batch-`***YOURNAME*** (replace ***YOURNAME*** with your name. Example: *`aws-batch-sveldi`*)
 4) Leave everything else as default values and click `“Create bucket”` at the bottom of the page.
 5) Make a note of the bucket name created.
 <br>
