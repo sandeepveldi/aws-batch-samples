@@ -1,7 +1,7 @@
 Login to Event Engine:
 
 1) Go to https://dashboard.eventengine.run/login
-2) Enter your event hash as “bdc7-1c5a82aeb4-1d” and click “Accept Terms & Login”
+2) Enter your event hash provided by the presenter and click “Accept Terms & Login”
 3) Next use Email One-time passcode option to request OTP to your personal or Epsilon email ID.
 4) Once logged in click on ”AWS Console” and then “Open Console”
 5) Once you see the AWS Console Home, use the “region” drop down and select “us-east-1” (N. Virginia)
