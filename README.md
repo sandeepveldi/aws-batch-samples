@@ -1,6 +1,7 @@
 # Workshop Instructions
 
-> :warning: **NOTE**: Please look out for extra white spaces or character changes when copy pasting code or text.
+> :warning: 
+> Please look out for extra white spaces or character changes when copy pasting code or text.
 
 ## Login to Event Engine:
 
